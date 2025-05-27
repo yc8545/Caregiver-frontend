@@ -1,0 +1,86 @@
+/* Auth.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #70e1f5, #ffd194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container {
+  width: 350px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  padding: 40px 30px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-card h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+
+
+
+.input-field {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 12px 0;
+  border-radius: 40px;
+  border: 2px solid #ddd;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+.input-field select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+}
+
+
+.input-field:focus {
+  border-color: #70e1f5;
+  box-shadow: 0 0 10px #70e1f5aa;
+}
+
+.btn-primary {
+  width: 100%;
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  border: none;
+  padding: 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 6px 15px rgba(255, 105, 135, 0.6);
+  transition: background 0.4s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #ee0979, #ff6a00);
+}
+
+.toggle-text {
+  margin-top: 25px;
+  font-size: 0.9rem;
+  color: #666;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.3s ease;
+}
